@@ -6,22 +6,22 @@
   
     <div class="card-container bottomspace">
       <div class="card card-small" (click)="selection.value = 'component'" tabindex="0">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 24l-5-4.39-5 4.39v-20h10v20zm-12-22h8v-2h-10v20l2-1.756v-16.244z"/></svg>
+        <img src="../../assets/star.png" alt="star">
         <span>Skills</span>
       </div>
   
       <div class="card card-small" (click)="selection.value = 'material'" tabindex="0">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 24l-5-4.39-5 4.39v-20h10v20zm-12-22h8v-2h-10v20l2-1.756v-16.244z"/></svg>
+        <img src="../../assets/star.png" alt="star">
         <span>Tools</span>
       </div>
   
       <div class="card card-small" (click)="selection.value = 'pwa'" tabindex="0">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 24l-5-4.39-5 4.39v-20h10v20zm-12-22h8v-2h-10v20l2-1.756v-16.244z"/></svg>
+        <img src="../../assets/star.png" alt="star">
         <span>Activities</span>
       </div>
   
       <div class="card card-small" (click)="selection.value = 'dependency'" tabindex="0">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 24l-5-4.39-5 4.39v-20h10v20zm-12-22h8v-2h-10v20l2-1.756v-16.244z"/></svg>
+        <img src="../../assets/star.png" alt="star">
         <span>Food</span>
       </div>
     </div>
@@ -34,8 +34,8 @@
     <div class="terminal bottomspace" [ngSwitch]="selection.value">
         <pre *ngSwitchDefault>C, Python, Angular, NodeJs, MySQL, MongoDB</pre>
         <pre *ngSwitchCase="'material'">VS Code, Jupyter, Git</pre>
-        <pre *ngSwitchCase="'pwa'">Biking, Swimming, Exploring</pre>
-        <pre *ngSwitchCase="'dependency'">Pizza, Wings, Biryani</pre>
+        <pre *ngSwitchCase="'pwa'">Biking, Hiking, Music</pre>
+        <pre *ngSwitchCase="'dependency'">Pizza, Chicken Wings, Biryani</pre>
     </div>
 
 </div>

@@ -56,6 +56,12 @@ a {
     opacity: 0.9;
   }
 
+  img{
+    color: white;
+    width: 30px;
+    margin-bottom: 10px;
+  }
+
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
     .title-sub{
@@ -70,9 +76,5 @@ a {
       margin-bottom: 30px;
     }
 
-    a{
-        height: 20px;
-        width: 20px;
-    }
 
   }

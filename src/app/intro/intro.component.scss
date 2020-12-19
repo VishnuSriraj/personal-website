@@ -92,6 +92,7 @@
     background-color: #ffffff;
     color: white;
     font-weight: 600;
+    padding-top: 10px;
   }
 
   svg {
@@ -99,9 +100,11 @@
     opacity: 80%;
   }
 
-  .toolbar #twitter-logo {
-    height: 40px;
+  .toolbar img{
+    height: 50px;
+    width: 50px;
     margin: 0 16px;
+    opacity: 80%;
   }
 
   .toolbar #twitter-logo:hover {
@@ -117,16 +120,22 @@
     align-items: center;
   }
 
-  svg.material-icons {
-    height: 24px;
-    width: auto;
-    opacity: 70%;
-  }
+  // svg.material-icons {
+  //   height: 24px;
+  //   width: auto;
+  //   opacity: 70%;
+  // }
 
-  svg.material-icons:not(:last-child) {
-    margin-right: 8px;
-  }
+  // svg.material-icons:not(:last-child) {
+  //   margin-right: 8px;
+  // }
 
+  .card img{
+    width: 35px;
+    height: 25px;
+    opacity: 80%;
+    padding-right: 5px;
+  }
 
   a,
   a:visited,
